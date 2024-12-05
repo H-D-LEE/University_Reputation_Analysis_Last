@@ -1,0 +1,1394 @@
+﻿[
+    {
+        "word": "가르침",
+        "word_root": "가르침",
+        "polarity": "1"
+    },
+    {
+        "word": "가르치다",
+        "word_root": "가르치",
+        "polarity": "1"
+    },
+    {
+        "word": "가망",
+        "word_root": "가망",
+        "polarity": "1"
+    },
+    {
+        "word": "가치",
+        "word_root": "가치",
+        "polarity": "2"
+    },
+    {
+        "word": "무가치",
+        "word_root": "무가치",
+        "polarity": "-1"
+    },
+    {
+        "word": "무가치하다",
+        "word_root": "무가치하",
+        "polarity": "-1"
+    },
+    {
+        "word": "무가치함",
+        "word_root": "무가치하",
+        "polarity": "-1"
+    },
+    {
+        "word": "간섭",
+        "word_root": "간섭",
+        "polarity": "-1"
+    },
+    {
+        "word": "간섭하다",
+        "word_root": "간섭",
+        "polarity": "-1"
+    },
+    {
+        "word": "간섭함",
+        "word_root": "간섭",
+        "polarity": "-1"
+    },
+    {
+        "word": "간편",
+        "word_root": "간편",
+        "polarity": "2"
+    },
+    {
+        "word": "간편하다",
+        "word_root": "간편",
+        "polarity": "2"
+    },
+    {
+        "word": "간편함",
+        "word_root": "간편",
+        "polarity": "2"
+    },
+    {
+        "word": "감동",
+        "word_root": "감동",
+        "polarity": "2"
+    },
+    {
+        "word": "감동하다",
+        "word_root": "감동",
+        "polarity": "2"
+    },
+    {
+        "word": "감동함",
+        "word_root": "감동",
+        "polarity": "2"
+    },
+    {
+        "word": "감명",
+        "word_root": "감명",
+        "polarity": "2"
+    },
+    {
+        "word": "감명깊다",
+        "word_root": "감명",
+        "polarity": "2"
+    },
+    {
+        "word": "감탄",
+        "word_root": "감탄",
+        "polarity": "2"
+    },
+    {
+        "word": "감탄하다",
+        "word_root": "감탄",
+        "polarity": "2"
+    },
+    {
+        "word": "감탄함",
+        "word_root": "감탄",
+        "polarity": "2"
+    },
+    {
+        "word": "감탄스럽다",
+        "word_root": "감탄",
+        "polarity": "2"
+    },
+    {
+        "word": "갑갑",
+        "word_root": "갑갑",
+        "polarity": "-1"
+    },
+    {
+        "word": "갑갑하다",
+        "word_root": "갑갑",
+        "polarity": "-1"
+    },
+    {
+        "word": "갑갑함",
+        "word_root": "갑갑",
+        "polarity": "-1"
+    },
+    {
+        "word": "값지다",
+        "word_root": "값지",
+        "polarity": "2"
+    },
+    {
+        "word": "값짐",
+        "word_root": "값지",
+        "polarity": "2"
+    },
+    {
+        "word": "강추",
+        "word_root": "강추",
+        "polarity": "2"
+    },
+    {
+        "word": "추천",
+        "word_root": "추천",
+        "polarity": "1"
+    },
+    {
+        "word": "추천하다",
+        "word_root": "추천하",
+        "polarity": "1"
+    },
+    {
+        "word": "추천함",
+        "word_root": "추천",
+        "polarity": "1"
+    },
+    {
+        "word": "비추천",
+        "word_root": "비추천",
+        "polarity": "-1"
+    },
+    {
+        "word": "비추",
+        "word_root": "비추",
+        "polarity": "-1"
+    },
+    {
+        "word": "비추하다",
+        "word_root": "비추하",
+        "polarity": "-1"
+    },
+    {
+        "word": "비추함",
+        "word_root": "비추",
+        "polarity": "-1"
+    },
+    {
+        "word": "강추하다",
+        "word_root": "강추",
+        "polarity": "2"
+    },
+    {
+        "word": "같잖다",
+        "word_root": "같잖",
+        "polarity": "-1"
+    },
+    {
+        "word": "갖추다",
+        "word_root": "갖추",
+        "polarity": "1"
+    },
+    {
+        "word": "거부감",
+        "word_root": "거부감",
+        "polarity": "-2"
+    },
+    {
+        "word": "걱정",
+        "word_root": "걱정",
+        "polarity": "-1"
+    },
+    {
+        "word": "걱정스럽다",
+        "word_root": "걱정",
+        "polarity": "-1"
+    },
+    {
+        "word": "걱정되다",
+        "word_root": "걱정",
+        "polarity": "-1"
+    },
+    {
+        "word": "걱정하다",
+        "word_root": "걱정",
+        "polarity": "-1"
+    },
+    {
+        "word": "겉치레",
+        "word_root": "겉치레",
+        "polarity": "-1"
+    },
+    {
+        "word": "결점",
+        "word_root": "결점",
+        "polarity": "-1"
+    },
+    {
+        "word": "고급",
+        "word_root": "고급",
+        "polarity": "2"
+    },
+    {
+        "word": "고급지다",
+        "word_root": "고급지",
+        "polarity": "2"
+    },
+    {
+        "word": "고집",
+        "word_root": "고집",
+        "polarity": "-1"
+    },
+    {
+        "word": "고집스럽다",
+        "word_root": "고집",
+        "polarity": "-1"
+    },
+    {
+        "word": "고통",
+        "word_root": "고통",
+        "polarity": "-2"
+    },
+    {
+        "word": "고통스럽다",
+        "word_root": "고통",
+        "polarity": "-2"
+    },
+    {
+        "word": "괴롭다",
+        "word_root": "괴롭",
+        "polarity": "-2"
+    },
+    {
+        "word": "공정",
+        "word_root": "공정",
+        "polarity": "2"
+    },
+    {
+        "word": "공정하다",
+        "word_root": "공정",
+        "polarity": "2"
+    },
+    {
+        "word": "공정함",
+        "word_root": "공정",
+        "polarity": "2"
+    },
+    {
+        "word": "공평",
+        "word_root": "공평",
+        "polarity": "1"
+    },
+    {
+        "word": "공평하다",
+        "word_root": "공평",
+        "polarity": "1"
+    },
+    {
+        "word": "구리다",
+        "word_root": "구리",
+        "polarity": "-1"
+    },
+    {
+        "word": "구역질",
+        "word_root": "구역질",
+        "polarity": "-2"
+    },
+    {
+        "word": "구역질나다",
+        "word_root": "구역질",
+        "polarity": "-2"
+    },
+    {
+        "word": "긍정",
+        "word_root": "긍정",
+        "polarity": "1"
+    },
+    {
+        "word": "기대",
+        "word_root": "기대",
+        "polarity": "1"
+    },
+    {
+        "word": "까다롭다",
+        "word_root": "까다롭",
+        "polarity": "-1"
+    },
+    {
+        "word": "깔끔",
+        "word_root": "깔끔",
+        "polarity": "1"
+    },
+    {
+        "word": "깔끔하다",
+        "word_root": "깔끔",
+        "polarity": "1"
+    },
+    {
+        "word": "깨끗",
+        "word_root": "깨끗",
+        "polarity": "1"
+    },
+    {
+        "word": "깨끗하다",
+        "word_root": "깨끗",
+        "polarity": "1"
+    },
+    {
+        "word": "꼬락서니",
+        "word_root": "꼬락서니",
+        "polarity": "-1"
+    },
+    {
+        "word": "꼼꼼",
+        "word_root": "꼼꼼",
+        "polarity": "1"
+    },
+    {
+        "word": "꼼꼼하다",
+        "word_root": "꼼꼼",
+        "polarity": "1"
+    },
+    {
+        "word": "끔찍",
+        "word_root": "끔찍",
+        "polarity": "-2"
+    },
+    {
+        "word": "끔찍하다",
+        "word_root": "끔찍",
+        "polarity": "-2"
+    },
+    {
+
+        "word": "나쁘다",
+        "word_root": "나쁘",
+        "polarity": "-1"
+    },
+    {
+        "word": "난잡",
+        "word_root": "난잡",
+        "polarity": "-2"
+    },
+    {
+        "word": "난잡하다",
+        "word_root": "난잡",
+        "polarity": "-2"
+    },
+    {
+        "word": "난잡스럽다",
+        "word_root": "난잡",
+        "polarity": "-2"
+    },
+    {
+        "word": "낡다",
+        "word_root": "낡",
+        "polarity": "-1"
+    },
+    {
+        "word": "낫다",
+        "word_root": "낫",
+        "polarity": "1"
+    },
+    {
+        "word": "넉넉",
+        "word_root": "넉넉",
+        "polarity": "1"
+    },
+    {
+        "word": "넉넉하다",
+        "word_root": "넉넉",
+        "polarity": "1"
+    },
+    {
+        "word": "노답",
+        "word_root": "노",
+        "polarity": "-2"
+    },
+    {
+        "word": "높다",
+        "word_root": "높",
+        "polarity": "1"
+    },
+    {
+        "word": "다채롭다",
+        "word_root": "다채",
+        "polarity": "1"
+    },
+    {
+        "word": "답답",
+        "word_root": "답답",
+        "polarity": "-1"
+    },
+    {
+        "word": "답답하다",
+        "word_root": "답답",
+        "polarity": "-1"
+    },
+    {
+        "word": "대단",
+        "word_root": "대단",
+        "polarity": "2"
+    },
+    {
+        "word": "대단하다",
+        "word_root": "대단",
+        "polarity": "2"
+    },
+    {
+        "word": "더디다",
+        "word_root": "더디",
+        "polarity": "-1"
+    },
+    {
+        "word": "더럽다",
+        "word_root": "더럽",
+        "polarity": "-2"
+    },
+    {
+        "word": "뒤떨어지다",
+        "word_root": "뒤떨어지",
+        "polarity": "-2"
+    },
+    {
+        "word": "듣보",
+        "word_root": "듣보",
+        "polarity": "-1"
+    },
+    {
+        "word": "듣보잡",
+        "word_root": "듣보",
+        "polarity": "-1"
+    },
+    {
+        "word": "뚜렷",
+        "word_root": "뚜렷",
+        "polarity": "1"
+    },
+    {
+        "word": "뚜렷하다",
+        "word_root": "뚜렷",
+        "polarity": "1"
+    },
+    {
+        "word": "또렷",
+        "word_root": "또렷",
+        "polarity": "1"
+    },
+    {
+        "word": "또렷하다",
+        "word_root": "또렷",
+        "polarity": "1"
+    },
+    {
+        "word": "뛰어나다",
+        "word_root": "뛰어나",
+        "polarity": "2"
+    },
+    {
+        "word": "만족",
+        "word_root": "만족",
+        "polarity": "2"
+    },
+    {
+        "word": "만족하다",
+        "word_root": "만족",
+        "polarity": "2"
+    },
+    {
+        "word": "만족스럽다",
+        "word_root": "만족",
+        "polarity": "2"
+    },
+    {
+        "word": "모순",
+        "word_root": "모순",
+        "polarity": "-2"
+    },
+    {
+        "word": "모자라다",
+        "word_root": "모자라",
+        "polarity": "-1"
+    },
+    {
+        "word": "모호",
+        "word_root": "모호",
+        "polarity": "-1"
+    },
+    {
+        "word": "모호하다",
+        "word_root": "모호",
+        "polarity": "-1"
+    },
+    {
+        "word": "무의미",
+        "word_root": "무의미",
+        "polarity": "-1"
+    },
+    {
+        "word": "무의미하다",
+        "word_root": "무의미",
+        "polarity": "-1"
+    },
+    {
+        "word": "유의미",
+        "word_root": "유의미",
+        "polarity": "1"
+    },
+    {
+        "word": "유의미하다",
+        "word_root": "유의미",
+        "polarity": "1"
+    },
+    {
+        "word": "무책임",
+        "word_root": "무책임",
+        "polarity": "-2"
+    },
+    {
+        "word": "무책임하다",
+        "word_root": "무책임",
+        "polarity": "-2"
+    },
+    {
+        "word": "믿음직",
+        "word_root": "믿음직",
+        "polarity": "2"
+    },
+    {
+        "word": "믿음직하다",
+        "word_root": "믿음직",
+        "polarity": "2"
+    },
+    {
+        "word": "믿음직스럽다",
+        "word_root": "믿음직",
+        "polarity": "2"
+    },
+    {
+        "word": "번지르르",
+        "word_root": "번지르르",
+        "polarity": "-1"
+    },
+    {
+        "word": "번지르르하다",
+        "word_root": "번지르르",
+        "polarity": "-1"
+    },
+    {
+        "word": "별로",
+        "word_root": "별",
+        "polarity": "-1"
+    },
+    {
+        "word": "볼품",
+        "word_root": "볼품",
+        "polarity": "1"
+    },
+    {
+        "word": "볼품없다",
+        "word_root": "볼품",
+        "polarity": "-1"
+    },
+    {
+        "word": "부질",
+        "word_root": "부질",
+        "polarity": "1"
+    },
+    {
+        "word": "부질없다",
+        "word_root": "부질",
+        "polarity": "-1"
+    },
+    {
+        "word": "불만",
+        "word_root": "불만",
+        "polarity": "-2"
+    },
+    {
+        "word": "불만스럽다",
+        "word_root": "불만",
+        "polarity": "-2"
+    },
+    {
+        "word": "불쾌",
+        "word_root": "불쾌",
+        "polarity": "-2"
+    },
+    {
+        "word": "불쾌하다",
+        "word_root": "불쾌",
+        "polarity": "-2"
+    },
+    {
+        "word": "불편",
+        "word_root": "불편",
+        "polarity": "-2"
+    },
+    {
+        "word": "불편하다",
+        "word_root": "불편",
+        "polarity": "-2"
+    },
+    {
+        "word": "비관",
+        "word_root": "비관",
+        "polarity": "-2"
+    },
+    {
+        "word": "비관하다",
+        "word_root": "비관",
+        "polarity": "-2"
+    },
+    {
+        "word": "비정상",
+        "word_root": "비정상",
+        "polarity": "-1"
+    },
+    {
+        "word": "비좁다",
+        "word_root": "비좁",
+        "polarity": "-1"
+    },
+    {
+        "word": "ㅄ",
+        "word_root": "ㅄ",
+        "polarity": "-1"
+    },
+    {
+        "word": "ㅅㅂ",
+        "word_root": "ㅅ",
+        "polarity": "-1"
+    },
+    {
+        "word": "상냥",
+        "word_root": "상냥",
+        "polarity": "1"
+    },
+    {
+        "word": "상냥하다",
+        "word_root": "상냥",
+        "polarity": "1"
+    },
+    {
+        "word": "새롭다",
+        "word_root": "새롭",
+        "polarity": "1"
+    },
+    {
+        "word": "미달",
+        "word_root": "미달",
+        "polarity": "-2"
+    },
+    {
+        "word": "신선",
+        "word_root": "신선",
+        "polarity": "1"
+    },
+    {
+        "word": "신선하다",
+        "word_root": "신선",
+        "polarity": "1"
+    },
+    {
+        "word": "맛",
+        "word_root": "맛",
+        "polarity": "1"
+    },
+    {
+        "word": "실망",
+        "word_root": "실망",
+        "polarity": "-2"
+    },
+    {
+        "word": "실망하다",
+        "word_root": "실망",
+        "polarity": "-2"
+    },
+    {
+        "word": "실망스럽다",
+        "word_root": "실망",
+        "polarity": "-2"
+    },
+    {
+        "word": "실속",
+        "word_root": "실속",
+        "polarity": "1"
+    },
+    {
+        "word": "실속있다",
+        "word_root": "실속있",
+        "polarity": "1"
+    },
+    {
+        "word": "실속없다",
+        "word_root": "실속없",
+        "polarity": "-1"
+    },
+    {
+        "word": "실용",
+        "word_root": "실용",
+        "polarity": "1"
+    },
+    {
+        "word": "실용성",
+        "word_root": "실용성",
+        "polarity": "1"
+    },
+    {
+        "word": "심각",
+        "word_root": "심각",
+        "polarity": "-2"
+    },
+    {
+        "word": "심각하다",
+        "word_root": "심각",
+        "polarity": "-2"
+    },
+    {
+        "word": "심",
+        "word_root": "심",
+        "polarity": "-2"
+    },
+    {
+        "word": "심하다",
+        "word_root": "심",
+        "polarity": "-2"
+    },
+    {
+        "word": "쓸데",
+        "word_root": "쓸데",
+        "polarity": "2"
+    },
+    {
+        "word": "쓸모",
+        "word_root": "쓸모",
+        "polarity": "1"
+    },
+    {
+        "word": "쓸데없다",
+        "word_root": "쓸데없",
+        "polarity": "-2"
+    },
+    {
+        "word": "쓸데있다",
+        "word_root": "쓸데있",
+        "polarity": "2"
+    },
+    {
+        "word": "쓸모없다",
+        "word_root": "쓸모없",
+        "polarity": "-1"
+    },
+    {
+        "word": "쓸모있다",
+        "word_root": "쓸모있",
+        "polarity": "1"
+    },
+    {
+        "word": "아깝다",
+        "word_root": "아깝",
+        "polarity": "-1"
+    },
+    {
+        "word": "아쉽다",
+        "word_root": "아쉽",
+        "polarity": "-1"
+    },
+    {
+        "word": "안타깝다",
+        "word_root": "안타깝",
+        "polarity": "-1"
+    },
+    {
+        "word": "암담",
+        "word_root": "암담",
+        "polarity": "-2"
+    },
+    {
+        "word": "암담하다",
+        "word_root": "암담",
+        "polarity": "-2"
+    },
+    {
+        "word": "야무지다",
+        "word_root": "야무지",
+        "polarity": "1"
+    },
+    {
+        "word": "어둡다",
+        "word_root": "어둡",
+        "polarity": "-1"
+    },
+    {
+        "word": "어렵다",
+        "word_root": "어렵",
+        "polarity": "-2"
+    },
+    {
+        "word": "어설프다",
+        "word_root": "어설프",
+        "polarity": "-1"
+    },
+    {
+        "word": "어중간",
+        "word_root": "어중간",
+        "polarity": "-1"
+    },
+    {
+        "word": "어중간하다",
+        "word_root": "어중간",
+        "polarity": "-1"
+    },
+    {
+        "word": "어줍잖다",
+        "word_root": "어줍잖",
+        "polarity": "-2"
+    },
+    {
+        "word": "억지",
+        "word_root": "억지",
+        "polarity": "-1"
+    },
+    {
+        "word": "억지로",
+        "word_root": "억지",
+        "polarity": "-1"
+    },
+    {
+        "word": "우수",
+        "word_root": "우수",
+        "polarity": "2"
+    },
+    {
+        "word": "우수하다",
+        "word_root": "우수",
+        "polarity": "2"
+    },
+    {
+        "word": "원활",
+        "word_root": "원활",
+        "polarity": "2"
+    },
+    {
+        "word": "원활하다",
+        "word_root": "원활",
+        "polarity": "2"
+    },
+    {
+        "word": "유능",
+        "word_root": "유능",
+        "polarity": "2"
+    },
+    {
+        "word": "유능하다",
+        "word_root": "유능",
+        "polarity": "2"
+    },
+    {
+        "word": "잘못",
+        "word_root": "잘못",
+        "polarity": "-2"
+    },
+    {
+        "word": "잘못되다",
+        "word_root": "잘못",
+        "polarity": "-2"
+    },
+    {
+        "word": "잘못돼다",
+        "word_root": "잘못",
+        "polarity": "-2"
+    },
+    {
+        "word": "잘",
+        "word_root": "잘",
+        "polarity": "1"
+    },
+    {
+        "word": "잘하다",
+        "word_root": "잘",
+        "polarity": "1"
+    },
+    {
+        "word": "재미",
+        "word_root": "재미",
+        "polarity": "1"
+    },
+    {
+        "word": "재미있다",
+        "word_root": "재미",
+        "polarity": "1"
+    },
+    {
+        "word": "재밌다",
+        "word_root": "재미",
+        "polarity": "1"
+    },
+    {
+        "word": "재미없다",
+        "word_root": "재미",
+        "polarity": "1"
+    },
+    {
+        "word": "노잼",
+        "word_root": "노잼",
+        "polarity": "-1"
+    },
+    {
+        "word": "꿀잼",
+        "word_root": "꿀잼",
+        "polarity": "2"
+    },
+    {
+        "word": "저급",
+        "word_root": "저급",
+        "polarity": -2
+    },
+    {
+        "word": "저급하다",
+        "word_root": "저급",
+        "polarity": -2
+    },
+    {
+        "word": "적극",
+        "word_root": "적극",
+        "polarity": "1"
+    },
+    {
+        "word": "적절히",
+        "word_root": "적절히",
+        "polarity": "1"
+    },
+    {
+        "word": "적절",
+        "word_root": "적절",
+        "polarity": "1"
+    },
+    {
+        "word": "적절하다",
+        "word_root": "적절",
+        "polarity": "1"
+    },
+    {
+        "word": "적합",
+        "word_root": "적합",
+        "polarity": "1"
+    },
+    {
+        "word": "적합하다",
+        "word_root": "적합",
+        "polarity": "1"
+    },
+    {
+        "word": "전문가",
+        "word_root": "전문가",
+        "polarity": "1"
+    },
+    {
+        "word": "전문",
+        "word_root": "전문",
+        "polarity": "2"
+    },
+    {
+        "word": "전문적이다",
+        "word_root": "전문",
+        "polarity": "2"
+    },
+    {
+        "word": "전문성",
+        "word_root": "전문",
+        "polarity": "2"
+    },
+    {
+        "word": "제한",
+        "word_root": "제한",
+        "polarity": "-2"
+    },
+    {
+        "word": "제한하다",
+        "word_root": "제한",
+        "polarity": "-2"
+    },
+    {
+        "word": "제한되다",
+        "word_root": "제한",
+        "polarity": "-2"
+    },
+    {
+        "word": "좆",
+        "word_root": "좆",
+        "polarity": "-1"
+    },
+    {
+        "word": "좋다",
+        "word_root": "좋",
+        "polarity": "2"
+    },
+    {
+        "word": "질리다",
+        "word_root": "질리",
+        "polarity": "-1"
+    },
+    {
+        "word": "짜증나다",
+        "word_root": "짜증나",
+        "polarity": "-1"
+    },
+    {
+        "word": "짜증",
+        "word_root": "짜증나",
+        "polarity": "-1"
+    },
+    {
+        "word": "창렬",
+        "word_root": "창",
+        "polarity": "-1"
+    },
+    {
+        "word": "창피하다",
+        "word_root": "창피",
+        "polarity": "-2"
+    },
+    {
+        "word": "창피",
+        "word_root": "창피",
+        "polarity": "-2"
+    },
+    {
+        "word": "초라하다",
+        "word_root": "초라",
+        "polarity": "-2"
+    },
+    {
+        "word": "초라",
+        "word_root": "초라",
+        "polarity": "-2"
+    },
+    {
+        "word": "최고",
+        "word_root": "최고",
+        "polarity": "2"
+    },
+    {
+        "word": "최악",
+        "word_root": "최악",
+        "polarity": "-2"
+    },
+    {
+        "word": "취약",
+        "word_root": "취약",
+        "polarity": "-2"
+    },
+    {
+        "word": "취약하다",
+        "word_root": "취약",
+        "polarity": "-2"
+    },
+    {
+        "word": "터무니",
+        "word_root": "터무니",
+        "polarity": "1"
+    },
+    {
+        "word": "터무니없다",
+        "word_root": "터무니",
+        "polarity": "-2"
+    },
+    {
+        "word": "편리하다",
+        "word_root": "편리",
+        "polarity": "2"
+    },
+    {
+        "word": "편리",
+        "word_root": "편리",
+        "polarity": "2"
+    },
+    {
+        "word": "평등",
+        "word_root": "평등",
+        "polarity": "1"
+    },
+    {
+        "word": "평등하다",
+        "word_root": "평등",
+        "polarity": "1"
+    },
+    {
+        "word": "한숨",
+        "word_root": "한숨",
+        "polarity": "-1"
+    },
+    {
+        "word": "허술하다",
+        "word_root": "허술",
+        "polarity": "-1"
+    },
+    {
+        "word": "허술",
+        "word_root": "허술",
+        "polarity": "-1"
+    },
+    {
+        "word": "허접",
+        "word_root": "허접",
+        "polarity": "-1"
+    },
+    {
+        "word": "혜택",
+        "word_root": "혜택",
+        "polarity": "1"
+    },
+    {
+        "word": "화",
+        "word_root": "화",
+        "polarity": "-1"
+    },
+    {
+        "word": "화나다",
+        "word_root": "화나",
+        "polarity": "-2"
+    },
+    {
+        "word": "후회하다",
+        "word_root": "후회",
+        "polarity": "-2"
+    },
+    {
+        "word": "후회",
+        "word_root": "후회",
+        "polarity": "-2"
+    },
+    {
+        "word": "쾌적하다",
+        "word_root": "쾌적",
+        "polarity": "2"
+    },
+    {
+        "word": "쾌적",
+        "word_root": "쾌적",
+        "polarity": "2"
+    },
+    {
+        "word": "당혹",
+        "word_root": "당혹",
+        "polarity": "-1"
+    },
+    {
+        "word": "당혹스럽다",
+        "word_root": "당혹",
+        "polarity": "-1"
+    },
+    {
+        "word": "만만치않다",
+        "word_root": "만만",
+        "polarity": "-1"
+    },
+    {
+        "word": "만만찮다",
+        "word_root": "만만",
+        "polarity": "-1"
+    },
+    {
+        "word": "만만치",
+        "word_root": "만만",
+        "polarity": "1"
+    },
+    {
+        "word": "에휴",
+        "word_root": "에휴",
+        "polarity": "-1"
+    },
+    {
+        "word": "착잡",
+        "word_root": "착잡",
+        "polarity": "-2"
+    },
+    {
+        "word": "착잡하다",
+        "word_root": "착잡",
+        "polarity": "-2"
+    },
+    {
+        "word": "부실",
+        "word_root": "부실",
+        "polarity": "-2"
+    },
+    {
+        "word": "부실하다",
+        "word_root": "부실",
+        "polarity": "-2"
+    },
+    {
+        "word": "보람",
+        "word_root": "보람",
+        "polarity": "2"
+    },
+    {
+        "word": "보람차다",
+        "word_root": "보람",
+        "polarity": "2"
+    },
+    {
+        "word": "보람있다",
+        "word_root": "보람",
+        "polarity": "2"
+    },
+    {
+        "word": "지리다",
+        "word_root": "지리",
+        "polarity": "1"
+    },
+    {
+        "word": "지린다",
+        "word_root": "지린",
+        "polarity": "1"
+    },
+    {
+        "word": "구리다",
+        "word_root": "구리",
+        "polarity": "1"
+    },
+    {
+        "word": "빵빵",
+        "word_root": "빵빵",
+        "polarity": "2"
+    },
+    {
+        "word": "빵빵하다",
+        "word_root": "빵빵하",
+        "polarity": "2"
+    },
+    {
+        "word": "빡빡",
+        "word_root": "빡빡",
+        "polarity": "-1"
+    },
+    {
+        "word": "빡빡하다",
+        "word_root": "빡빡하",
+        "polarity": "-1"
+    },
+    {
+        "word": "훈훈",
+        "word_root": "훈훈",
+        "polarity": "1"
+    },
+    {
+        "word": "훈훈하다",
+        "word_root": "훈훈하",
+        "polarity": "1"
+    },
+    {
+        "word": "쉽다",
+        "word_root": "쉽",
+        "polarity": "1"
+    },
+    {
+        "word": "어렵다",
+        "word_root": "쉽",
+        "polarity": "1"
+    },
+    {
+        "word": "무난",
+        "word_root": "무난",
+        "polarity": "1"
+    },
+    {
+        "word": "무난하다",
+        "word_root": "무난하",
+        "polarity": "1"
+    },
+    {
+        "word": "간단",
+        "word_root": "간단",
+        "polarity": "1"
+    },
+    {
+        "word": "간단하다",
+        "word_root": "간단하",
+        "polarity": "1"
+    },
+    {
+        "word": "자유",
+        "word_root": "자유",
+        "polarity": "2"
+    },
+    {
+        "word": "자유롭다",
+        "word_root": "자유롭",
+        "polarity": "2"
+    },
+    {
+        "word": "기회",
+        "word_root": "기회",
+        "polarity": "2"
+    },
+    {
+        "word": "경험",
+        "word_root": "경험",
+        "polarity": "2"
+    },
+    {
+        "word": "추억",
+        "word_root": "추억",
+        "polarity": "1"
+    },
+    {
+        "word": "편안",
+        "word_root": "편안",
+        "polarity": "1"
+    },
+    {
+        "word": "편안하다",
+        "word_root": "편안하",
+        "polarity": "1"
+    },
+    {
+        "word": "편안함",
+        "word_root": "편안함",
+        "polarity": "1"
+    }
+,
+    {
+        "word": "장점",
+        "word_root": "장점",
+        "polarity": "1"
+    },
+    {
+        "word": "단점",
+        "word_root": "단점",
+        "polarity": "1"
+    },
+    {
+        "word": "부조리",
+        "word_root": "부조리",
+        "polarity": "-2"
+    },
+    {
+        "word": "군기",
+        "word_root": "군기",
+        "polarity": "-2"
+    },
+    {
+        "word": "꼰대",
+        "word_root": "꼰대",
+        "polarity": "-2"
+    },
+    {
+        "word": "튼튼",
+        "word_root": "튼튼",
+        "polarity": "1"
+    },
+    {
+        "word": "튼튼하다",
+        "word_root": "튼튼하",
+        "polarity": "1"
+    },
+    {
+        "word": "의문",
+        "word_root": "의문",
+        "polarity": "-1"
+    }
+]

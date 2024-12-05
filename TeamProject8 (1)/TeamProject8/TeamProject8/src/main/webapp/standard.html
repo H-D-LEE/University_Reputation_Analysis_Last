@@ -1,0 +1,246 @@
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, 그리고 Bootstrap 기여자들">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>standard</title>
+
+    <link rel="canonical" href="https://getbootstrap.kr/docs/5.2/examples/carousel/">
+
+    
+
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @font-face {
+        font-family: 'GowunBatang-Regular';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      } 
+
+      @font-face {
+        font-family: 'GowunDodum-Regular';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .container {
+        font-family: 'GowunBatang-Regular';
+      }
+
+      .container-fluid{
+        font-family: 'GowunDodum-Regular';
+      }
+
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="mainPageLink" href="./index.html">대학 평판 사이트</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" id="standardPageLink" href="./standard.html">평가 기준</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pagelinkPageLink" href="./pagelink.html">평가 대상 목록</a>
+              </li>           
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  학교 평판 지수
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="rankPageLink1" href="./rank.html">교수 평판 지수</a></li>
+                  <li><a class="dropdown-item" id="rankPageLink2" href="./rankcls.html">교과 평판 지수</a></li>
+                  <li><a class="dropdown-item" id="rankPageLink3" href="./rankfee.html">등록금 평판 지수</a></li>
+                  <li><a class="dropdown-item" id="rankPageLink4" href="./rankmny.html">복지 평판 지수</a></li>
+                  <li><a class="dropdown-item" id="rankPageLink5" href="./rankncl.html">비교과 평판 지수</a></li>
+                  <li><a class="dropdown-item" id="rankPageLink6" href="./rankbld.html">시설 평판 지수</a></li>
+                  <li><a class="dropdown-item" id="rankPageLink7" href="./rankemp.html">진로 평판 지수</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+<main>
+    <div class="container" style="height: 60px;">
+        <!-- Content here -->
+    </div>
+    
+      <div class="container" style="height: 30px;">
+        <!-- Content here -->
+    </div>
+
+    <div class="container">
+        <h2 class="featurette-heading fw-normal lh-1"> 평가 기준 <span class="text-muted"></span></h2>
+        <div class="container" style="height: 10px;"></div>
+        <p class="lead"><span class="text-muted">
+			저희 프로젝트는 각종 온라인 커뮤니티에 올라오는 대학교의 평판을 수집하여 
+			글의 긍·부정 평가를 분석하고 해당 대학교의 평판 지수를 계산해 이를 수치화시켜 
+			유저분들께 보여드리는 프로젝트입니다. 
+			따라서 각종 커뮤니티의 게시글들을 스크래핑하고, 
+			스크래핑한 게시글의 내용을 저희 팀의 감정 분석 모듈을 통해 
+			대학에 대한 긍·부정 평판을 수치화하는 과정을 거칩니다. 
+			좀 더 자세한 설명을 위해 분석 과정을 보여드리도록 하겠습니다.			
+		</span></p>
+    </div>
+
+    <div class="container" style="height: 10px;">
+        <!-- Content here -->
+    </div>
+
+    <div class="container marketing">
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+    <div class="container" style="height: 10px;"></div>
+
+    <div class="container">
+      
+        <h2 class="featurette-heading fw-normal lh-1">1. 스크래핑 <span class="text-muted"></span></h2>
+        <div class="container" style="height: 10px;"></div>
+        <p class="lead">
+			저희 팀의 목표는 광고나 악의적 평가 등으로 정확도가 떨어지는 대학의 평판보다 
+			실제로 사람들이 생각하는 대학의 평판을 수치화하여 보여드리는 것을 목표로 이번 프로젝트를 진행했습니다. 
+			따라서 저희의 목표에 맞게 보통 사람들의 의견을 모으기 위해선 커뮤니티에 올라오는 게시글들을 수집할 필요가 있습니다.</p>
+        <p class="lead">
+          이에 저희 팀은 python으로 각종 커뮤니티의 게시글들을 스크래핑 하고 있습니다. 
+          아래 검색창에 학교명을 입력하고 검색 버튼을 누르면 해당 학교에 대하여 스크래핑 된 게시글들의 목록을 확인해 볼 수 있습니다.</p>
+        <div class="container" style="text-align: right;">
+          <div class="container" style="height: 10px;"></div>
+          <form class="d-flex" role="search" onsubmit="search(); return false;">
+            <input id="searchInput" class="form-control me-1" size="100px" type="search" placeholder="학교명을 입력하시오." aria-label="Search">
+            <button class="btn btn-outline-success" style="width: 100px;" type="submit">수집</button>
+          </form>
+          <div class="container" style="height: 10px;"></div>
+          <button class="btn btn-outline-success" style="width: 90px;" onclick="selectData();">새로고침</button>
+        </div>
+        
+          <p class="lead">
+      <div id="searchResults"></div>
+     	<p class="lead">　</p>
+        <p class="lead">　</p>
+      
+    </div>
+
+    <hr class="container">
+
+    <div class="row featurette">
+      <div class="container" style="height: 10px;"></div>
+      
+        <h2 class="featurette-heading fw-normal lh-1">2. 감정 분석 모듈 <span class="text-muted"></span></h2>
+        <div class="container" style="height: 10px;"></div>
+        <p class="lead">위에서 설명해 드린 것처럼 스크래핑을 통해 게시글을 긁어모았으니 이제 의견을 뽑아내 긍·부정 여부를 분석할 차례입니다. 저희 팀은 기존 군산 대학교의 감성 사전을 기반으로 게시글들에서 주로 쓰이는, 대학 평판에 직결되는 표현을 직접 수집해 별도의 감성 사전을 구축했습니다. </p>
+        <p class="lead">　</p>
+
+        <div class="container">
+          <button class="btn btn-outline-success" onclick="analyze();" style="width: 100px;">분석 시작</button>
+          <p class="lead">　</p>
+          <div id="analysisResults"></div>
+        </div>
+        
+        <p class="lead">그것이 바로 이 모듈인데요, 다음과 같이 문장을 입력받으면 자동으로 긍·부정 여부를 판단하고 이를 수치화하는 작업에 들어갑니다.</p>
+        <p class="lead">이렇게 산정된 평가 수치를 합산 및 통계를 내는 과정을 통해 최종적으로 웹 페이지에 해당 대학의 긍·부정 평가 수치가 기재되게 됩니다.</p>
+      </div>
+      
+      <div class="container" style="height: 100px;">
+      <!-- Content here -->
+      </div>
+      
+
+    <!-- /END THE FEATURETTES -->
+
+</main>
+
+<script src="standard.js"></script>
+<!-- <script src="server.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+<script type="text/javascript" src="https://unpkg.com/web3@0.20.5/dist/web3.min.js"></script>
+      
+  </body>
+</html>

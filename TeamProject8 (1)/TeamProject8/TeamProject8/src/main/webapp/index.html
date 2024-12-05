@@ -1,0 +1,274 @@
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, 그리고 Bootstrap 기여자들">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>main</title>
+
+    <link rel="canonical" href="https://getbootstrap.kr/docs/5.2/examples/carousel/">
+
+    
+
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @font-face {
+        font-family: 'GowunBatang-Regular';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      } 
+
+      @font-face {
+        font-family: 'GowunDodum-Regular';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .container {
+        font-family: 'GowunBatang-Regular';
+      }
+
+      .container-fluid{
+        font-family: 'GowunDodum-Regular';
+      }
+
+      .item-image{
+        filter: blur(4px);
+    -webkit-filter: blur(4px);
+      }
+
+      .carousel-item{
+        width: 100%; 
+        height: 50%;
+      }
+
+      
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+	<header>
+	  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	    <div class="container-fluid">
+	      <a class="navbar-brand" id="mainPageLink" href="./index.html">대학 평판 사이트</a>
+	      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+	      <div class="collapse navbar-collapse" id="navbarCollapse">
+	        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+	          <li class="nav-item">
+	            <a class="nav-link active" aria-current="page" id="standardPageLink" href="./standard.html">평가 기준</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" id="pagelinkPageLink" href="./pagelink.html">평가 대상 목록</a>
+	          </li>
+	          <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	              학교 평판 지수
+	            </a>
+	            <ul class="dropdown-menu">
+	              <li><a class="dropdown-item" id="rankPageLink1" href="./rank.html">교수 평판 지수</a></li>
+	              <li><a class="dropdown-item" id="rankPageLink2" href="./rankcls.html">교과 평판 지수</a></li>
+	              <li><a class="dropdown-item" id="rankPageLink3" href="./rankfee.html">등록금 평판 지수</a></li>
+	              <li><a class="dropdown-item" id="rankPageLink4" href="./rankmny.html">복지 평판 지수</a></li>
+	              <li><a class="dropdown-item" id="rankPageLink5" href="./rankncl.html">비교과 평판 지수</a></li>
+	              <li><a class="dropdown-item" id="rankPageLink6" href="./rankbld.html">시설 평판 지수</a></li>
+	              <li><a class="dropdown-item" id="rankPageLink7" href="./rankemp.html">진로 평판 지수</a></li>
+	            </ul>
+	          </li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	</header>
+
+<main>
+  <div class="container" style="height: 60px;">
+        <!-- Content here -->
+  </div>
+  <div class="container" style="width: 100%; height: 50%; text-align: center;">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./image/pro.jpg" class="item-image"  width="100%" height="80%" aria-hidden="true" alt="교수">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>교수 평판 지수</h1>
+              <p>대학 교수를 평가기준으로 한 학교 평판 지수</p>
+              <p><a class="btn btn-lg btn-primary" href="./rank.html">보러가기</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./image/cls.jpg" class="item-image"  width="100%" height="80%" aria-hidden="true" alt="교과">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>교과 평판 지수</h1>
+              <p>대학 수업을 평가기준으로 한 학교 평판 지수</p>
+              <p><a class="btn btn-lg btn-primary" href="./rankcls.html">보러가기</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./image/fee.jpg" class="item-image"  width="100%" height="80%" aria-hidden="true" alt="등록금">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>등록금 평판 지수</h1>
+              <p>대학교 등록금을 평가기준으로 한 학교 평판 지수</p>
+              <p><a class="btn btn-lg btn-primary" href="./rankfee.html">보러가기</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./image/mny.jpg" class="item-image"  width="100%" height="80%" aria-hidden="true" alt="복지">
+
+          <div class="container">
+            <div class="carousel-caption ">
+              <h1>복지 평판 지수</h1>
+              <p>복지를 평가기준으로 한 학교 평판 지수</p>
+              <p><a class="btn btn-lg btn-primary" href="./rankmny.html">보러가기</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="500px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+          <img src="./image/ncl.jpg" class="item-image"  width="100%" height="80%" aria-hidden="true" alt="비교과">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>비교과 평판 지수</h1>
+              <p>비교과 과목을 평가기준으로 한 학교 평판 지수</p>
+              <p><a class="btn btn-lg btn-primary" href="./rankncl.html">보러가기</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./image/bld.jpg" class="item-image"  width="100%" height="80%" aria-hidden="true" alt="시설">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>시설 평판 지수</h1>
+              <p>대학 시설을 평가기준으로 한 학교 평판 지수</p>
+              <p><a class="btn btn-lg btn-primary" href="./rankbld.html">보러가기</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./image/emp.jpg" class="item-image"  width="100%" height="80%" aria-hidden="true" alt="진로">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>진로 평판 지수</h1>
+              <p>졸업 진로를 평가기준으로 한 학교 평판 지수</p>
+              <p><a class="btn btn-lg btn-primary" href="./rankemp.html">보러가기</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+    </div>  
+
+</main>
+
+<!-- <script src="main.js"></script> -->
+<script src="pagelink.js"></script>
+<!-- <script src="server.js"></script> -->
+<script src="rank.js"></script>
+<script src="standard.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+<script type="text/javascript" src="https://unpkg.com/web3@0.20.5/dist/web3.min.js"></script>
+</body>
+</html>
