@@ -1,0 +1,27 @@
+메인 서버
+
+node.js 실행 방법
+
+서버 실행 방법 서버가 있는 위치 주소창에 cmd 입력 실행
+
+cmd 창에 node bin/www
+
+그 후에 open live server 키고
+
+allow cors 켜져있는 확인 켜져있으면 open live server 주소창 복사 크롬에 입력 후 실행
+
+
+
+flask 서버 실행 방법
+
+deactivate 이게 가상환경 비활성화
+
+cd venv
+
+cd Scripts 
+
+call activate.bat
+
+cd ..
+
+python app.py
